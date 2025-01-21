@@ -25,7 +25,7 @@ export default defineConfig({
 					autogenerate: { directory: 'tips' },
 				},
 			],
-			customCss: ['./src/styles/custom.css'],
+			customCss: ['./src/styles/global.css'],
 			head: [
 				{
 					tag: 'meta',

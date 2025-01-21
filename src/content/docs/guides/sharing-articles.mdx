@@ -1,9 +1,12 @@
 ---
 title: Sharing Articles
 description: General guidance for sharing content
+tableOfContents:
+  maxHeadingLevel: 5
 ---
 
 import { LinkCard, CardGrid, Steps } from '@astrojs/starlight/components';
+import '@styles/sharing-articles.css';
 
 <LinkCard
 	title="Latest Articles"
@@ -13,37 +16,42 @@ import { LinkCard, CardGrid, Steps } from '@astrojs/starlight/components';
 
 ## Where to post
 
-It might be difficult to think of places to post if you are not active on social media already. Here are some ideas:
+It might be difficult to think of places to post if you are not active on social media already.
 
-1. Youtube Community Posts
-   - [Learn More (about community posts)](https://support.google.com/youtube/answer/9409631)
-   - [Learn more (how to have multiple accounts)](https://support.google.com/youtube/answer/3046356)
-2. Instagram Regular Posts
-   - [Learn More (how to post)](https://help.instagram.com/442418472487929)
-   - [Learn More (how to have multiple accounts)](https://help.instagram.com/1696686240613595)
-3. Medium
-   - [Learn More](https://help.medium.com/hc/en-us/articles/225168768-Writing-and-publishing-your-first-story)
-   - [Rule about duplicate content](https://help.medium.com/hc/en-us/articles/360039513913-About-the-No-Duplicate-Content-rule)
-4. Reddit
-   - [Learn More (how to post)](https://support.reddithelp.com/hc/en-us/articles/360060422572-How-do-I-post-and-comment-on-Reddit)
-   - [Learn More (how to have multiple accounts)](https://support.reddithelp.com/hc/en-us/articles/204535759-Is-it-ok-to-create-multiple-accounts)
-   - [Search for subreddits](https://www.reddit.com/subreddits/)
-5. WhatsApp Groups - [Learn More (how to find groups)](https://www.lifewire.com/how-to-find-and-join-whatsapp-groups-4782103)
-6. Telegram Groups - [Learn More (how to find groups)](https://www.anyrecover.com/apps-tips/how-to-find-groups-in-telegram/)
-7. Facebook Pages / Groups
-   - [Learn More (how to create a new page)](https://www.facebook.com/business/help/1199464373557428)
-   - [Learn More (how to join a group)](https://www.facebook.com/help/197647530805955/)
-8. Twitter - [Learn More (How to manage multiple accounts)](https://www.pcmag.com/how-to/create-and-manage-multiple-twitter-accounts)
-9. Pinterest
-   - [Learn More (how to create a pin)](https://www.businessinsider.com/guides/tech/how-to-post-on-pinterest)
-   - [Learn More (how to have multiple accounts)](https://help.pinterest.com/en/article/switch-between-accounts)
-10. Tumblr
-    - [Learn more (how to have multiple accounts)](https://www.tumblr.com/fastfeed/150339964900/update-multiple-accounts)
-    - [Learn more (how to post)](https://help.tumblr.com/writing-posts/)
-11. Substack
-    - [Learn More (how to post)](https://on.substack.com/p/first-post)
+Here are some ideas:
 
-### How to post
+- **Youtube Community Posts**
+  - [Community Posts docs](https://support.google.com/youtube/answer/9409631)
+  - [How to have multiple accounts](https://support.google.com/youtube/answer/3046356)
+- **Instagram Regular Posts**
+  - [How to post](https://help.instagram.com/442418472487929)
+  - [How to have multiple accounts](https://help.instagram.com/1696686240613595)
+- **Medium**
+  - [How to post](https://help.medium.com/hc/en-us/articles/225168768-Writing-and-publishing-your-first-story)
+  - [Rule about duplicate content](https://help.medium.com/hc/en-us/articles/360039513913-About-the-No-Duplicate-Content-rule)
+- **Reddit**
+  - [How to post](https://support.reddithelp.com/hc/en-us/articles/360060422572-How-do-I-post-and-comment-on-Reddit)
+  - [How to have multiple accounts](https://support.reddithelp.com/hc/en-us/articles/204535759-Is-it-ok-to-create-multiple-accounts)
+  - [Search for groups](https://www.reddit.com/subreddits/)
+- **WhatsApp Groups**
+  - [How to find groups](https://www.lifewire.com/how-to-find-and-join-whatsapp-groups-4782103)
+- **Telegram Groups**
+  - [How to find groups](https://www.anyrecover.com/apps-tips/how-to-find-groups-in-telegram/)
+- **Facebook Pages / Groups**
+  - [How to create a new page](https://www.facebook.com/business/help/1199464373557428)
+  - [How to join a group](https://www.facebook.com/help/197647530805955/)
+- **Twitter**
+  - [How to manage multiple accounts](https://www.pcmag.com/how-to/create-and-manage-multiple-twitter-accounts)
+- **Pinterest**
+  - [How to create a pin](https://www.businessinsider.com/guides/tech/how-to-post-on-pinterest)
+  - [How to have multiple accounts](https://help.pinterest.com/en/article/switch-between-accounts)
+- **Tumblr**
+  - [How to have multiple accounts](https://www.tumblr.com/fastfeed/150339964900/update-multiple-accounts)
+  - [How to post](https://help.tumblr.com/writing-posts/)
+- **Substack**
+  - [How to post](https://on.substack.com/p/first-post)
+
+## How to post
 
 Make fresh accounts on all these platforms and post the same content on all of them. This will help to reach more people.
 
@@ -55,8 +63,7 @@ Make fresh accounts on all these platforms and post the same content on all of t
 2. Use the Article's exising title for your post.
 
 3. If posting on a platform with limited characters, or unable to use links then put
-   a link this link in your bio
-   [https://nurmuhammad.com/latest-articles/](https://nurmuhammad.com/latest-articles/) and say "Link in bio" in your post.
+   a link to [https://nurmuhammad.com/latest-articles/](https://nurmuhammad.com/latest-articles/) in your profile bio and say "Link in bio" in your post.
 
    Then take the first paragraph of the article after the introduction and use it as your post.
 
@@ -89,6 +96,8 @@ Here are all the categories of articles on the website. You can use these to fin
 	href="https://nurmuhammad.com/category/end-times-signs/"
 />
 
+#### Imam Mahdi
+
 - <LinkCard
   	title="Imam Mahdi"
   	href="https://nurmuhammad.com/category/end-times-signs/imam-mahdi/"
@@ -101,15 +110,21 @@ Here are all the categories of articles on the website. You can use these to fin
 	href="https://nurmuhammad.com/category/heavenly-kingdom/"
 />
 
+#### He (SAW) is Within You
+
 - <LinkCard
-  	title="He (saw) is Within You"
+  	title="He (SAW) is Within You"
   	href="https://nurmuhammad.com/category/heavenly-kingdom/he-saw-is-within-you/"
   />
+
+#### Secrets of Ya-Seen
 
 - <LinkCard
   	title="Secrets of Ya-Seen"
   	href="https://nurmuhammad.com/category/heavenly-kingdom/secrets-of-ya-seen/"
   />
+
+#### Walking Quran
 
 - <LinkCard
   	title="Walking Quran"
@@ -123,10 +138,14 @@ Here are all the categories of articles on the website. You can use these to fin
 	href="https://nurmuhammad.com/category/islamic-meditation/"
 />
 
+#### Healing Energy
+
 - <LinkCard
   	title="Healing Energy"
   	href="https://nurmuhammad.com/category/islamic-meditation/healing-energy/"
   />
+
+#### Noble Connection
 
 - <LinkCard
   	title="Noble Connection"
@@ -152,12 +171,19 @@ Here are all the categories of articles on the website. You can use these to fin
 	href="https://nurmuhammad.com/category/secrets-of-letters-numbers-ilm-huroof/"
 />
 
+#### Ilm Huroof
+
 - <LinkCard
   	title="Ilm Huroof"
   	href="https://nurmuhammad.com/category/secrets-of-letters-numbers-ilm-huroof/ilm-huroof-2/"
   />
-  - See [Abjad Table](https://nurmuhammad.com/abjad-table/) for links to all
-  letters
+
+  - <p>
+    	See [Abjad Table](https://nurmuhammad.com/abjad-table/) for links to all
+    	letters
+    </p>
+
+#### Secrets of Numbers
 
 - <LinkCard
   	title="Secret of Numbers"
@@ -171,35 +197,49 @@ Here are all the categories of articles on the website. You can use these to fin
 	href="https://nurmuhammad.com/category/levels-of-the-heart/"
 />
 
+#### 6 Powers of the Heart
+
 - <LinkCard
   	title="6 Powers of the Heart"
   	href="https://nurmuhammad.com/category/levels-of-the-heart/6-powers-of-the-heart/"
   />
+
+#### Akhfa
 
 - <LinkCard
   	title="Akhfa"
   	href="https://nurmuhammad.com/category/levels-of-the-heart/akhfa/"
   />
 
+#### Khafa
+
 - <LinkCard
   	title="Khafa"
   	href="https://nurmuhammad.com/category/levels-of-the-heart/khafa/"
   />
+
+#### Qalb
 
 - <LinkCard
   	title="Qalb"
   	href="https://nurmuhammad.com/category/levels-of-the-heart/qalb/"
   />
 
+#### Realities of a Star
+
 - <LinkCard
   	title="Realities of a Star"
   	href="https://nurmuhammad.com/category/levels-of-the-heart/realities-of-a-star/"
   />
 
+#### Sir
+
 - <LinkCard
   	title="Sir"
   	href="https://nurmuhammad.com/category/levels-of-the-heart/sir/"
   />
+
+#### Sir Sir
 
 - <LinkCard
   	title="Sir Sir"
@@ -232,70 +272,98 @@ Here are all the categories of articles on the website. You can use these to fin
 	href="https://nurmuhammad.com/category/resources-and-practices/"
 />
 
+#### Emanation of the Month
+
 - <LinkCard
   	title="Emanation of the Month"
   	href="https://nurmuhammad.com/category/resources-and-practices/emanation-of-the-month/"
   />
+
+#### Realities of 12 Months of Hijri
 
 - <LinkCard
   	title="Realities of 12 Months of Hijri"
   	href="https://nurmuhammad.com/category/resources-and-practices/realities-of-12-months-of-hijri/"
   />
 
+  ##### Muhraram
+
   - <LinkCard
     	title="1. Muharram"
     	href="https://nurmuhammad.com/category/resources-and-practices/realities-of-12-months-of-hijri/muharram/"
     />
+
+  ##### Safar
 
   - <LinkCard
     	title="2. Safar"
     	href="https://nurmuhammad.com/category/resources-and-practices/realities-of-12-months-of-hijri/safar-cave-of-safety/"
     />
 
+  ##### Rabi'ul Awwal
+
   - <LinkCard
     	title="3. Rabi'ul Awwal"
     	href="https://nurmuhammad.com/category/resources-and-practices/realities-of-12-months-of-hijri/3-rabiul-awwal/"
     />
+
+  ##### Rabi'ul Thani
 
   - <LinkCard
     	title="4. Rabi'ul Thani"
     	href="https://nurmuhammad.com/category/resources-and-practices/realities-of-12-months-of-hijri/4-rabiul-thani/"
     />
 
+  ##### Jumadal Awwal
+
   - <LinkCard
     	title="5. Jumadal Awwal"
     	href="https://nurmuhammad.com/category/resources-and-practices/realities-of-12-months-of-hijri/5-jumadal-awwal/"
     />
+
+  ##### Jumadal Thani
 
   - <LinkCard
     	title="6. Jumadal Thani"
     	href="https://nurmuhammad.com/category/resources-and-practices/realities-of-12-months-of-hijri/6-jumadal-thani/"
     />
 
+  ##### Rajab
+
   - <LinkCard
     	title="7. Rajab"
     	href="https://nurmuhammad.com/category/resources-and-practices/realities-of-12-months-of-hijri/7-rajab/"
     />
+
+  ##### Sha'ban
 
   - <LinkCard
     	title="8. Sha'ban"
     	href="https://nurmuhammad.com/category/resources-and-practices/realities-of-12-months-of-hijri/8-shaban/"
     />
 
+  ##### Ramadan
+
   - <LinkCard
     	title="9. Ramadan"
     	href="https://nurmuhammad.com/category/resources-and-practices/realities-of-12-months-of-hijri/ramadan/"
     />
+
+  ##### Shawwal
 
   - <LinkCard
     	title="10. Shawwal"
     	href="https://nurmuhammad.com/category/resources-and-practices/realities-of-12-months-of-hijri/shawwal/"
     />
 
+  ##### Dhul Qi'dah
+
   - <LinkCard
     	title="11. Dhul Qi'dah"
     	href="https://nurmuhammad.com/category/resources-and-practices/realities-of-12-months-of-hijri/dhul-qidah/"
     />
+
+  ##### Dhul Hijjah
 
   - <LinkCard
     	title="12. Dhul Hijjah"
@@ -318,31 +386,43 @@ Here are all the categories of articles on the website. You can use these to fin
 	title="Secrets of Holy Quran"
 	href="https://nurmuhammad.com/category/secrets-of-holy-quran/"
 />
+
 ### Stories of the Prophets
+
 <LinkCard
 	title="Stories of the Prophets"
 	href="https://nurmuhammad.com/category/stories-of-the-prophets/"
 />
+
 ### The Golden Chain
+
 <LinkCard
 	title="The Golden Chain"
 	href="https://nurmuhammad.com/category/golden-chain-secrets/"
 />
+
+#### Golden Chain Biographies
 
 - <LinkCard
   	title="Golden Chain Biographies"
   	href="https://nurmuhammad.com/category/golden-chain-secrets/golden-chain-bios/"
   />
 
+#### Guides - RijalAllah (Men of God)
+
 - <LinkCard
   	title="Guides - RijalAllah (Men of God)"
   	href="https://nurmuhammad.com/category/golden-chain-secrets/guides-rijalallah-men-of-god/"
   />
 
+#### Insan Kamel
+
 - <LinkCard
   	title="Insan Kamel"
   	href="https://nurmuhammad.com/category/golden-chain-secrets/insan-kamel/"
   />
+
+#### Rising Sun of the West
 
 - <LinkCard
   	title="Rising Sun of the West"

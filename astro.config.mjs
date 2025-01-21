@@ -26,6 +26,15 @@ export default defineConfig({
 				},
 			],
 			customCss: ['./src/styles/custom.css'],
+			head: [
+				{
+					tag: 'meta',
+					attrs: {
+						name: 'robots',
+						content: 'noindex',
+					},
+				},
+			],
 		}),
 	],
 });

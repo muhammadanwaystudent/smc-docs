@@ -1,0 +1,33 @@
+---
+title: Enable Select on nurmuhammad.com
+description: How to enable select on nurmuhammad.com
+---
+
+import { Steps } from '@astrojs/starlight/components';
+
+<Steps>
+
+1. Create a new bookmark ( on any website just click add to bookmarks )
+2. Go to edit bookmarks, or bookmark manager
+3. Change the name of the bookmark to "Enable Select"
+4. Change the URL to the following code:
+   ```javascript
+   javascript: (function () {
+   	if (window.location.hostname === 'nurmuhammad.com') {
+   		if (!document.querySelector('#allow-user-select-style')) {
+   			const s = document.createElement('style');
+   			s.id = 'allow-user-select-style';
+   			s.textContent =
+   				'body,body::before,body::after{user-select:text!important;-webkit-user-select:text!important;-moz-user-select:text!important;-ms-user-select:text!important;}';
+   			document.body.appendChild(s);
+   		}
+   	} else if (!window.hasShownAlert) {
+   		alert('This bookmarklet only works on nurmuhammad.com.');
+   		window.hasShownAlert = true;
+   	}
+   })();
+   ```
+5. Save the bookmark
+6. When on website click the bookmark to enable select, you will need to do this for ever page you want to copy from.
+
+</Steps>

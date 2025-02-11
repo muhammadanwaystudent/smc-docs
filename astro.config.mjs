@@ -34,7 +34,7 @@ export default defineConfig({
 					tag: 'meta',
 					attrs: {
 						name: 'robots',
-						content: 'noindex',
+						content: 'noindex, nofollow',
 					},
 				},
 			],

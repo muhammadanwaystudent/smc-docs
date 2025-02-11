@@ -6,7 +6,7 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'SMC Docs',
+			title: 'SMC Dawah',
 			social: {
 				discord: 'https://discord.com/invite/cjxQfvmBkD',
 				github: 'https://github.com/muhammadanwaystudent/smc-docs',

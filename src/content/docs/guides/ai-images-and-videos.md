@@ -57,11 +57,11 @@ Most of these are all around the same price, except Sora is twice as expensive
 
 If you want to get into running image and video generation models on your own computer, there are some powerful resources available. You can create images as well as the paid tools, but video will be a struggle to get the same quality.
 
-These tools can run on just a CPU with normal RAM but right now the best way to do this is with an Nvidia GPU. The cheapest entry point GPU at the moment would be a RTX 3060, and you can find them used.
+These tools can run on just a CPU with normal RAM but right now the best way to do this is with an Nvidia GPU. The cheapest entry point GPU at the moment would be a RTX 3060, and you can find them used. VRAM is the most important factor for running these models, and the 3060 comes with a respectable 12gb. Nvidia has the best driver support, but AMD and Intel are coming along.
 
 1. [ComfyUI](https://www.comfy.org/download)
 
-   This is a very powerful tool, that works to bring stable diffusion models to consumer grade hardware. It works by allowing users to create and share workflows for creating images with certain models and tools etc, here is a good resource for getting started [Runcomfy](https://www.runcomfy.com).
+   This is a very powerful tool, that works to bring stable diffusion models to consumer grade hardware. It works by allowing users to create and share workflows for creating images with certain models and tools etc, here is a good resource for getting started [Runcomfy](https://www.runcomfy.com). It does support Intel and AMD GPUs, but with some exceptions. 
 
 ## Technique
 

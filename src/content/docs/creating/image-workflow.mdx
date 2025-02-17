@@ -1,0 +1,86 @@
+---
+title: Guide for creating and editing an Image
+description: Walkthrough of making an image that reflects the Sunnah
+---
+
+import { Steps } from '@astrojs/starlight/components';
+
+This is a guide that will walk through making an image that reflects the Sunnah. This will use [ChatGPT](https://chatgpt.com/) DALLE 3 to create the original image, [Adobe Firefly Generative Fill](https://firefly.adobe.com/generate/inpaint) to edit it, and finally [Adobe Express](https://new.express.adobe.com/) to add the logo.
+
+All of these services require a paid subscription, ChatGPT plus plan is $20 USD a month, and Adobe Firefly is $10 USD a month. Adobe Express will let you use some of the features for free, but also has a paid plan for $10 USD a month.
+
+This guide was originally posted in the Discord in [this thread](https://discord.com/channels/1114742919644074046/1234906151049494669/threads/1239629798167417052/1239629798167417052).
+
+
+## Creating Initial Image with ChatGPT
+
+<Steps>
+
+1.  Go to [ChatGPT](https://chatgpt.com/) and start a DALL E chat.
+
+2.  Enter the prompt for the image you want to create.
+
+    ```plaintext wrap title="ChatGPT DALLE 3 Prompt"
+    As salaamu alaikum wa rahmatullahi wa barakatuh, please draw a Naqshbandi Muslim man wearing green robes and a Naqshbandi style turban sitting in an expansive field of
+    roses with a moonlit pink and emerald sky
+    ```
+
+    ![ChatGPT DALLE Response](@assets/DALLE-Response.png)
+
+3.  You can further instruct it to refine the image after its original response.
+
+    ```plaintext wrap title="ChatGPT DALLE 3 Follow up prompt"
+    Please add the green dome of Medina to the background
+    ```
+
+4.  Save the image.
+
+</Steps>
+
+## Editing Image with Adobe Firefly
+
+<Steps>
+1. Go to [Adobe Firefly Generative Fill](https://firefly.adobe.com/generate/inpaint) and sign in.
+
+2. Upload the image you created with ChatGPT.
+
+3. Remove any unwanted elements, for example the feather in the turban, by selected the area and choosing remove.
+
+   ![Remove area with firefly](@assets/Firefly-remove.png)
+
+4. Add any elements you want to the image, for example the Taj to the turban. First draw the area that will become the taj, then select insert and add a prompt.
+
+   ![Add turban taj with firefly](@assets/Firefly-add-taj.png)
+
+5. Add another element, for example the tail of the turban.
+
+   ![Add turban tail with firefly](@assets/Firefly-add-tail.png)
+
+6. Save the image.
+
+</Steps>
+
+## Adding SMC Logo to image
+
+This can be done with any photo editing software, but here we will use [Adobe Express](https://new.express.adobe.com/).
+
+Find more options for editing software in [This section of Creating AI Images and Videos](/creating/ai-images-and-videos/#image-editing-software) article.
+
+You can find the SMC logo and other assets on the [Images and Assets](/resources/assets/#logo) page.
+
+<Steps>
+
+1. Go to Adobe Express website or app and log in.
+
+2. Upload the image you created with Adobe Firefly.
+
+3. Find the "Add" button and upload the SMC logo
+
+    ![Add SMC logo with Adobe Express](@assets/Express-add.png)
+
+4. Add text if you want, here we added "SHAYKH.AI" text in order to hide the Buddhist hand symbol.
+
+    ![Final guide image](@assets/Final-guide-image.png)
+
+5. Save the image.
+</Steps>

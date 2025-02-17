@@ -1,5 +1,5 @@
 ---
-title: Creating AI Images and Videos
+title: Creating AI Images and Videos Overview
 description: A work in progress guide for using AI to create SMC content.
 tableOfContents:
   maxHeadingLevel: 5
@@ -11,7 +11,7 @@ For those interested in using AI to make images and videos, it can be quite over
 
 As of right now, the best AI tools are paid services.
 
-### Images
+### Creating Images
 
 1. [Adobe Firefly](https://firefly.adobe.com)
 
@@ -29,7 +29,7 @@ As of right now, the best AI tools are paid services.
 
    This is the most expensive, but a subscription lets you use the sora video tools as well. You can also create a custom GPT where you can configure it to make SMC style images reliably and quickly. If you have made one please share it in the discord.
 
-### Videos
+### Creating Videos
 
 Most of these are all around the same price, except Sora is twice as expensive
 
@@ -75,23 +75,33 @@ Often times it can be very difficult to get the AI to make the images how you wa
 
 1. [Adobe photoshop](https://www.adobe.com/products/photoshop.html)
 
-   This is the industry standard, but can be very complex to get started with.
+   This is the industry standard, but can be very complex to get started with. It costs $22 USD a month. It has many plugins and online resources available if you're willing to learn.
+
+2. [Adobe Express](https://new.express.adobe.com/)
+
+   This is a more user friendly and easier to use editing tool by Adobe. It has a nice mobile app and is very powerful. It can be used with limited features for free but costs $ 10 USD a month.
 
 2. [Photopea](https://www.photopea.com)
 
-   This is an ad supported free alternative to photoshop, loved by many but it is sort of "clunky"
+   This is an ad supported free alternative to Adobe photoshop, loved by many but it is sort of "clunky".
 
 3. [Figma](https://www.figma.com/login)
 
-   This is a free tool, that isn't exactly designed to replace photoshop but it is quite powerful.
+   This is a free tool, that isn't exactly designed to replace photoshop but it is quite powerful. It has a paid version, but all the features are available for free and the paid version mostly just let's you save more files.
 
 4. [Penpot](https://penpot.app/pricing)
 
-   This is a free version of figma, which is quickly growing in community support
+   This is a free version of figma, which is quickly growing in community support.
 
 5. [GIMP](https://www.gimp.org)
 
-   This is FREE software ( like linux ), and is very powerful but feels old and is also quite complex like photoshop.
+   This is FREE software (like linux), and is very powerful but feels old and is also quite complex like photoshop.
+
+6. [Canva](https://www.canva.com)
+
+   This is a paid service, but will let you some features for free. This tool provides a lot of assets and templates for creating various types of images, and does have its own AI features built in. The full version costs $15 USD a month.
+
+
 
 #### Image Editing tools
 
@@ -103,7 +113,7 @@ Often times it can be very difficult to get the AI to make the images how you wa
 
 ### Video Technique
 
-The "META" ( most efficient technique available ) for creating short videos with AI is to start with an image, and then use an image to video tool to "animate" it. Usually the AI tools won't give you a very long clip, and if they do they're often not very valuable.
+The "META" (most efficient technique available) for creating short videos with AI is to start with an image, and then use an image to video tool to "animate" it. Usually the AI tools won't give you a very long clip, and if they do they're often not very valuable.
 
 Typically the best way to go is what the official youtube channel posts is a transition from our beloved Shaykh (QS) talking to an "animated" AI generated image, then back to our beloved Shaykh (QS) talking. This keeps people engaged and makes the AI videos seem much more impressive.
 
